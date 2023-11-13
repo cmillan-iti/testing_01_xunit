@@ -13,10 +13,10 @@ namespace UnitTestDemo.Controllers
             _logger = logger;
         }
 
+        [HttpGet("Suma")]
         public int Suma(int x, int y)
         {
             return x + y;
-        }
-        
+        }        
     }
 }
