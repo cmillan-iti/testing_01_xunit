@@ -1,6 +1,6 @@
 ﻿namespace UnitTestDemo.Features.Users
 {
-    public class UserService
+    public class UserService : IUserService
     {
         private readonly IUserRepository userRepository;
 
