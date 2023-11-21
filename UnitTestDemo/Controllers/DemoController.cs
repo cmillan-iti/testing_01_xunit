@@ -13,6 +13,11 @@ namespace UnitTestDemo.Controllers
             _logger = logger;
         }
 
+        public void Division(int v1, int v2)
+        {
+            var result = v1 / v2;
+        }
+
         [HttpGet("Suma")]
         public int Suma(int x, int y)
         {
